@@ -36,24 +36,24 @@ if (!isset($CONFIG)) {
  *
  * @global string $CONFIG->dbuser
  */
-//$CONFIG->dbuser = 'narinder';
-$CONFIG->dbuser = getenv('DB_USER')?getenv('DB_USER'):null;
+$CONFIG->dbuser = 'sql12240297';
+//$CONFIG->dbuser = getenv('DB_USER')?getenv('DB_USER'):null;
 
 /**
  * The database password
  *
  * @global string $CONFIG->dbpass
  */
-//$CONFIG->dbpass = '';
-$CONFIG->dbpass = getenv('DB_PASSWORD')?getenv('DB_PASSWORD'):null;
+$CONFIG->dbpass = '3ywB9hS3bC';
+//$CONFIG->dbpass = getenv('DB_PASSWORD')?getenv('DB_PASSWORD'):null;
 
 /**
  * The database name
  *
  * @global string $CONFIG->dbname
  */
-//$CONFIG->dbname = 'elgg_aioug';
-$CONFIG->dbname = getenv('DB_NAME')?getenv('DB_NAME'):null;
+$CONFIG->dbname = 'sql12240297';
+//$CONFIG->dbname = getenv('DB_NAME')?getenv('DB_NAME'):null;
 
 /**
  * The database host.
@@ -62,8 +62,8 @@ $CONFIG->dbname = getenv('DB_NAME')?getenv('DB_NAME'):null;
  *
  * @global string $CONFIG->dbhost
  */
-$CONFIG->dbhost = getenv('DB_HOST')?getenv('DB_HOST'):null;
-//$CONFIG->dbhost = 'localhost';
+//$CONFIG->dbhost = getenv('DB_HOST')?getenv('DB_HOST'):null;
+$CONFIG->dbhost = 'sql12.freemysqlhosting.net';
 
 /**
  * The database prefix
@@ -74,8 +74,8 @@ $CONFIG->dbhost = getenv('DB_HOST')?getenv('DB_HOST'):null;
  *
  * @global string $CONFIG->dbprefix
  */
-//$CONFIG->dbprefix = 'elgg_';
-$CONFIG->dbprefix = getenv('DB_PREFIX')?getenv('DB_PREFIX'):null;
+$CONFIG->dbprefix = 'aioug_';
+//$CONFIG->dbprefix = getenv('DB_PREFIX')?getenv('DB_PREFIX'):null;
 
 /**
  * Multiple database connections
