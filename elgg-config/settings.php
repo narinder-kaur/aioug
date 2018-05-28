@@ -38,6 +38,8 @@ if (!isset($CONFIG)) {
  */
 //$CONFIG->dbuser = 'narinder';
 $CONFIG->dbuser = getenv('DB_USER')?getenv('DB_USER'):null;
+
+var_dump($_ENV);
 var_dump(getenv("DB_USER"));exit;
 /**
  * The database password
